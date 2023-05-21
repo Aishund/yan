@@ -29,7 +29,6 @@ function getPureStr(str) {
 	}
 	return res;
 }
-
 function loadingPage() {
 	let heart_div = $('.heart');
 	let heart_parent = heart_div.parent();
@@ -41,15 +40,10 @@ function loadingPage() {
 	heart_div.css('left', (page_width - heart_width) / 2);
 }
 $("#envelope").click(function () {
-	
-	$('body').css('width', "100%").css('height','100%').css('top','0').css('left','0');
 	$('#envelope').css('animation', "scale 3s forwards");
-	$('.animate__animated').addClass('animate__rotateIn');
-	$('.male').css('top', "26px").css('right','763px');
-	$('.female').css('top', "-141px").css('left','600px');
-	$('.move').css('left','-100px').css('top','200px');
-
-
+	$('.animate__animated').addClass('animate__bounceIn');
+/* 	$('.male').css('top', "26px").css('right','763px');
+	$('.female').css('top', "-141px").css('left','600px'); */
 });
 $("#open").click(function () {
 
