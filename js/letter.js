@@ -40,8 +40,8 @@ function loadingPage() {
 	heart_div.css('left', (page_width - heart_width) / 2);
 }
 $("#envelope").click(function () {
-	$('#envelope').css('animation', "scale 3s forwards").addClass('animate__bounceIn');
-	$('.animate__animated').addClass('animate__bounceIn');
+	$('#envelope').css('animation', "scale 3s forwards");
+	// $('.animate__animated').addClass('animate__bounceIn');
 /* 	$('.male').css('top', "26px").css('right','763px');
 	$('.female').css('top', "-141px").css('left','600px'); */
 });
