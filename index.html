@@ -19,9 +19,9 @@
     <script src="js/typed.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/bgm.js" type="text/javascript" charset="utf-8"></script>
     <style>
-        .animate__animated.animate__heartBeat{
+        /* .animate__animated.animate__backInRight{
             --animate-duration: 5s;
-        }
+        } */
         .animate__animated.animate__fadeIn,animate__bounceIn{
             --animate-duration: 5s;
         }
@@ -48,7 +48,7 @@
     </div>
     <img  class="male" src="./img/人物.png" alt="">
     <img  class="female" src="./img//人物 (1).png" alt="">
-    <div  class="animate animate__animated animate__heartBeat">
+    <div  class="animate animate__animated animate__bounceIn">
         <div class="move">
             <div id="envelope">
                 <section class="container" id="contact">
@@ -431,7 +431,7 @@
     setTimeout(function(){
         $('#jsi-cherry-container').css('display','block').css('width','100vw').css('height','100vh')
         $('#time1').css('display','block').removeClass('animate__animated').removeClass('animate__bounceOut');
-        $('#time1').css('position','absolute').css('bottom','5%').css('left','10%').css('font-size','150px').css('z-index','9999').css('width','100%');
+        $('#time1').css('position','absolute').css('display','flex').css('justify-content','center').css('bottom','5%').css('left','0%').css('font-size','100px').css('z-index','9999').css('width','100%').css('height','120px');
         // $('body').css('background','url(./img/QQ截图20230518202636.png) no-repeat').css('background-size','100% 100%').css('background-attachment','fixed').css('z-index','-999999');
         $('.male,.female').css('display','block');
         $('.animate').css('display','block').css('position','absolute');
